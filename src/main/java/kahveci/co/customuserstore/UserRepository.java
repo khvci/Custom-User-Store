@@ -14,6 +14,6 @@ public class UserRepository {
     }
 
     public void addUser(User user) {
-        this.users.put(user.getUserName(), user);
+        users.put(user.getUserName(), user);
     }
 }
